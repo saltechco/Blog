@@ -1,0 +1,64 @@
+/* style.css */
+
+header {
+    background-color: #f0f0f0; /* رنگ پس زمینه هدر */
+    padding: 20px; /* فاصله داخلی هدر */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* سایه */
+  }
+  
+  .container {
+    display: flex; /* چیدمان عناصر به صورت افقی */
+    justify-content: space-between; /* توزیع فضای خالی بین عناصر */
+    align-items: center; /* تراز عمودی عناصر */
+  }
+  
+  h1 {
+    font-family: sans-serif; /* فونت نام تجاری */
+    font-size: 24px; /* اندازه فونت عنوان */
+    margin: 0; /* حذف فاصله پیش فرض حاشیه */
+  }
+  
+  nav ul {
+    list-style: none; /* حذف نشانگرهای لیست */
+    margin: 0; /* حذف فاصله پیش فرض حاشیه */
+    padding: 0; /* حذف فاصله پیش فرض پر کردن */
+  }
+  
+  nav li {
+    display: inline-block; /* نمایش آیتم‌های لیست به صورت درون خطی */
+    margin-right: 20px; /* فاصله بین آیتم‌های لیست */
+  }
+  
+  nav a {
+    text-decoration: none; /* حذف خط زیر متن لینک‌ها */
+    color: #333; /* رنگ متن لینک‌ها */
+  }
+  
+  .login {
+    text-align: right; /* راست‌چین کردن بخش ورود */
+  }
+  
+  .login form {
+    display: inline-block; /* نمایش فرم به صورت درون خطی */
+  }
+  
+  .login label {
+    display: block; /* نمایش برچسب‌ها به صورت بلوکی */
+    margin-bottom: 5px; /* فاصله بین برچسب و ورودی */
+  }
+  
+  .login input[type="text"],
+  .login input[type="password"] {
+    width: 150px; /* عرض ورودی‌ها */
+    padding: 10px; /* فاصله داخلی ورودی‌ها */
+    border: 1px solid #ccc; /* لبه ورودی‌ها */
+  }
+  
+  .login button {
+    padding: 10px 20px; /* فاصله داخلی دکمه */
+    background-color: #007bff; /* رنگ پس زمینه دکمه */
+    color: #fff; /* رنگ متن دکمه */
+    border: none; /* حذف لبه دکمه */
+    cursor: pointer; /* نشانگر موس را به حالت اشاره تغییر دهید */
+  }
+  
